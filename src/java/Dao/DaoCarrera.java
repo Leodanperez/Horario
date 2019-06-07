@@ -112,6 +112,7 @@ public class DaoCarrera implements ICarrera{
                     cn.close();
                 } catch (SQLException e) {
                     System.out.println("Error" + e.getMessage());
+                    //esto es una prueba desde github
                 }
             }
         }
